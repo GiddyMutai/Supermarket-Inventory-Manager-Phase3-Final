@@ -2,7 +2,6 @@
 
 from models.category import Category
 from models.product import Product
-from datetime import datetime
 
 def helper_1():
     print("Performing useful function#1.")
