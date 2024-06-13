@@ -168,8 +168,4 @@ class Product:
 
         # Set the id to None
         self.id = None
-
-
-# product2 = Product("mens jeans", 1200, 8, 2)
-# product2.save()
-# print(Product.all)
+ 
