@@ -129,22 +129,6 @@ class Category:
         # Set the id to None
         self.id = None
 
-
-    # def productsss(self):
-    #     """Return list of products associated with current department"""
-    #     from models.product import Product
-    #     sql = """
-    #         SELECT * FROM products
-    #         WHERE category_id = ?
-    #     """
-    #     CURSOR.execute(sql, (self.id,),)
-
-    #     rows = CURSOR.fetchall()
-    #     return [
-    #         Product.instance_from_db(row) for row in rows
-    #     ]
-
-
     def products(self):
         """Return list of products associated with current department"""
         from models.product import Product
