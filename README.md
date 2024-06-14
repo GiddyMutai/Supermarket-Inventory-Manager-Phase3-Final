@@ -4,7 +4,7 @@
 
 ### By: Mutai Gideon
 
-## Descriptiom
+## Description
 
 This is an inventory manager project that lets a supermarket owner keep track on his product inventory throughout the sale transaction to better well manage what goes in and out of his establishment. This is a ready-made project that can be implemented by all and sundry, all it takes is just populating the database with the relevant categories and products and manage the sales from the same application.
 
@@ -38,7 +38,7 @@ Python
 ## Support and Contact Details
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at gideon.mutai@student.moringaschool.com
 
-# License
+## License
 
 MIT License
 
