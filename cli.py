@@ -1,5 +1,6 @@
 #cli.py
 
+
 from helpers import (
     exit_program,
     helper_1,
@@ -16,6 +17,10 @@ from helpers import (
     update_product,
     delete_product,
     list_category_products,
+    create_sale,
+    list_sales,
+    find_sale_by_id,
+    delete_sale
 )
 
 
@@ -51,16 +56,25 @@ def main():
             delete_product()
         elif choice == '13':
             list_category_products()
-        elif choice == "14":
+        elif choice == '14':
+            create_sale()
+        elif choice == "15":
+            list_sales()
+        elif choice == "16":
+            find_sale_by_id()
+        elif choice == "17":
+            delete_sale()
+        elif choice == "18":
             helper_1()
         else:
             print("Invalid choice")
 
 
 def menu():
+    print('Supermarket Inventory Manager')
     print("Please select an option:")
     print("0. Exit the program")
-    print("1. List all categories")
+    print("1. List all category")
     print("2. Find category by name")
     print("3. Find category by id")
     print("4: Create new category")
@@ -73,6 +87,10 @@ def menu():
     print("11: Update product")
     print("12: Delete product")
     print("13: List all products in a category")
+    print("14: Create new sale")
+    print("15: List all sales")
+    print("16: Find sale by id")
+    print("17: Delete sale")
 
 
 if __name__ == "__main__":
